@@ -1,4 +1,10 @@
 # Reference https://mp.weixin.qq.com/s/HwsOga6XnntQmtl13GpOlQ
+'''
+（1）使用BLIP自动标注caption
+/finetune/blip/blip.py脚本中的189行  这个模型的路径需要修改成本地路径，bert-base-uncased这个文件夹我已经放在资源包里了
+（2）使用Waifu Diffusion 1.4自动标注tag
+pip install tensorflow==2.10 -i https://pypi.tuna.tsinghua.edu.cn/simple
+'''
 
 # Kohya Trainer
 [![GitHub Repo stars](https://img.shields.io/github/stars/Linaqruf/kohya-trainer?style=social)](https://github.com/Linaqruf/kohya-trainer/)</a> [![ko-fi](https://img.shields.io/badge/Support%20me%20on%20Ko--fi-F16061?logo=ko-fi&logoColor=white&style=flat)](https://ko-fi.com/linaqruf) <a href="https://saweria.co/linaqruf"><img alt="Saweria" src="https://img.shields.io/badge/Saweria-7B3F00?style=flat&logo=ko-fi&logoColor=white"/></a>

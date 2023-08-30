@@ -1,5 +1,5 @@
 # Reference https://mp.weixin.qq.com/s/HwsOga6XnntQmtl13GpOlQ
-```
+```shell
 （1）使用BLIP自动标注caption
 /finetune/blip/blip.py脚本中的189行  这个模型的路径需要修改成本地路径，bert-base-uncased这个文件夹我已经放在资源包里了
 （2）使用Waifu Diffusion 1.4自动标注tag
